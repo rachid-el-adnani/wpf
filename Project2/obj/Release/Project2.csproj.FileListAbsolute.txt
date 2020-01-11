@@ -1,0 +1,12 @@
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\Release\Project2.csprojAssemblyReference.cache
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\Release\Project2.exe.config
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\Release\EditWindow.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\Release\Etudiant.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\Release\GestionFiliere.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\Release\LoginScreen.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\Release\MainWindow.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\Release\Statique.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\Release\App.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\Release\Project2_MarkupCompile.cache
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\Release\Project2_MarkupCompile.lref

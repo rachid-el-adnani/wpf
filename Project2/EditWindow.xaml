@@ -1,0 +1,41 @@
+﻿<Window x:Class="Project2.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project2"
+        mc:Ignorable="d"  WindowStyle="None" Height="402" Width="500">
+    <Grid Margin="4.8,3.4,0.4,4.4">
+        <Grid Height="295.4" Margin="39.2,64.1,39.2,0" VerticalAlignment="Top" Background="#FFBDBDBD">
+            <Label Content="CNE" HorizontalAlignment="Left" Margin="52.6,52.9,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Segoe UI Black"/>
+            <Label Content="Nom" HorizontalAlignment="Left" Margin="52.6,90.5,0,0" VerticalAlignment="Top" Width="45.193" FontSize="14" FontFamily="Segoe UI Black"/>
+            <Label Content="Prenom" HorizontalAlignment="Left" Margin="53.4,124.1,0,0" VerticalAlignment="Top" Width="95.593" FontSize="14" FontFamily="Segoe UI Black"/>
+            <Label Content="Sexe" HorizontalAlignment="Left" Margin="55,166.5,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Segoe UI Black"/>
+            <Label Content="Date Naissance"  HorizontalAlignment="Left" Margin="51,208.1,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Segoe UI Black" Width="100.21"/>
+            <TextBox Name="textCne"   HorizontalAlignment="Left" Height="23" Margin="179,52.5,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="187.2"/>
+            <TextBox Name="textNom" HorizontalAlignment="Left" Height="23" Margin="179,90.1,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="187.2"/>
+            <TextBox Name="textPrenom" HorizontalAlignment="Left" Height="23" Margin="180.6,127.7,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="187.2"/>
+            <TextBox Name="textSexe" HorizontalAlignment="Left" Height="23" Margin="180.6,166.9,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="187.2"/>
+            <TextBox Name="textDate" HorizontalAlignment="Left" Height="23" Margin="181.4,211.7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187.2" />
+            <Button Content="Annuler" HorizontalAlignment="Left" Height="27.2" Margin="271.6,254.329,0,0" VerticalAlignment="Top" Width="78.4" Foreground="White" FontFamily="Snap ITC" FontSize="14" Click="Annuler">
+                <Button.Background>
+                    <RadialGradientBrush>
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </RadialGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="Valider" HorizontalAlignment="Left" Height="26.4" Margin="118.8,255.129,0,0" VerticalAlignment="Top" Width="78.4" Foreground="White" FontFamily="Snap ITC" FontSize="14" Click="Valider"
+               >
+                <Button.Background>
+                    <RadialGradientBrush>
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="Black" Offset="1"/>
+                    </RadialGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Label Content="Modification" HorizontalAlignment="Left" Margin="166,16.4,0,0" VerticalAlignment="Top" Width="164.887" FontSize="18" Background="{x:Null}" Foreground="#FF310BC7" Height="34.48" FontFamily="Snap ITC"/>
+    </Grid>
+
+</Window>

@@ -1,0 +1,26 @@
+﻿<Window x:Class="Project2.LoginScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project2"
+        mc:Ignorable="d"
+        Title="LoginScreen" Height="550" Width="450">
+    <Grid Background="White" Margin="0,-26,3.2,-0.2" Height="Auto" VerticalAlignment="Stretch" AutomationProperties.IsOffscreenBehavior="Offscreen">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="123*"/>
+            <ColumnDefinition Width="144*"/>
+            <ColumnDefinition Width="176*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="Assets/ensa_logo.png" Margin="57.678,54,42.322,377" OpacityMask="#FF5D3939" Grid.Column="1" Grid.ColumnSpan="3"/>
+        <Label Content="Username" FontSize="19" HorizontalAlignment="Left" Margin="15,251,0,0" VerticalAlignment="Top" Height="43" Width="140"  RenderTransformOrigin="0.522,0.553" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <TextBox Name="textUser" Height="29" FontSize="19" Margin="0,257,42.2,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Right" Width="244.6" Grid.Column="2" Grid.ColumnSpan="2"/>
+        <PasswordBox Name="textPass" HorizontalAlignment="Left" FontSize="19" Margin="28.8,317,0,0" VerticalAlignment="Top" Height="29" Width="247" Grid.Column="2" Grid.ColumnSpan="2"/>
+        <Label FontSize="19
+               " Content="Password" HorizontalAlignment="Left" Height="53" Margin="16.2,312.2,0,0" VerticalAlignment="Top" Width="119" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Button Content="Connexion" Click="Button_Click" FontSize="19" HorizontalAlignment="Left" VerticalAlignment="Top" Width="159" Height="39" Margin="127.8,413.4,0,0" Grid.Column="2" Grid.ColumnSpan="2"/>
+        <Label Name="labelog" Grid.ColumnSpan="4" FontSize="19" Content="" HorizontalAlignment="Left" Margin="23,367.8,0,0" VerticalAlignment="Top" Width="385" Foreground="#FFDD1010" Height="35" />
+
+    </Grid>
+</Window>

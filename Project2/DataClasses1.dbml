@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB_ETUDIANT" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-MMNT686;Initial Catalog=DB_ETUDIANT;Integrated Security=True;Pooling=False" SettingsObjectName="Project2.Properties.Settings" SettingsPropertyName="DB_ETUDIANTConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Login" Member="Login">
+    <Type Name="Login">
+      <Column Name="ID" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="[User]" Member="User" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Filiere" Member="Filiere">
+    <Type Name="Filiere">
+      <Column Name="Id_filiere" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nom_filiere" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Resp_filiere" Type="System.String" DbType="NChar(40)" CanBeNull="true" />
+      <Association Name="Filiere_etudiant" Member="etudiant" ThisKey="Id_filiere" OtherKey="id_fil" Type="etudiant" />
+    </Type>
+  </Table>
+  <Table Name="dbo.etudiant" Member="etudiant">
+    <Type Name="etudiant">
+      <Column Name="cne" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nom" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="prenom" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="sexe" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="date_naiss" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="id_fil" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="image_etud" Type="System.Data.Linq.Binary" DbType="VarBinary(4000)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="image" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="Filiere_etudiant" Member="Filiere" ThisKey="id_fil" OtherKey="Id_filiere" Type="Filiere" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+</Database>

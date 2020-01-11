@@ -1,0 +1,11 @@
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\x86\Debug\Project2.exe.config
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\x86\Debug\EditWindow.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\x86\Debug\Etudiant.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\x86\Debug\GestionFiliere.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\x86\Debug\LoginScreen.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\x86\Debug\MainWindow.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\x86\Debug\Statique.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\x86\Debug\App.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\x86\Debug\Project2_MarkupCompile.cache
+C:\Users\kali\Desktop\Csharp_Project\Wpf\Project2\Project2\obj\x86\Debug\Project2_MarkupCompile.lref

@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="Project2.Gestionetudiant"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Project2"     
+             mc:Ignorable="d" 
+            Width="800" Height="392.1">
+    <Grid  HorizontalAlignment="Left" Height="392" Margin="10,5,0,-5" VerticalAlignment="Top" Width="790" Background="#FFC2C2C2" ContextMenuClosing="Form">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="373*"/>
+            <RowDefinition Height="19*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Rechecher par Filière" HorizontalAlignment="Left" Margin="24.042,12.93,0,0" VerticalAlignment="Top" FontSize="16" Width="182.627" Height="34.62" Foreground="#FF0C0707" FontFamily="Segoe UI Black" />
+        <ComboBox Name="filiereCombo" HorizontalAlignment="Left" Height="26.4" Margin="21.9,53.1,0,0" VerticalAlignment="Top" Width="172.8" SelectionChanged="ComboBox_SelectionChanged"/>
+        <Grid HorizontalAlignment="Left" Height="165.6" Margin="14.7,110.7,0,0" VerticalAlignment="Top" Width="190.8" Background="#FFE0E0E0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="76*"/>
+                <RowDefinition Height="79*"/>
+            </Grid.RowDefinitions>
+            <Label  Content="Information sur la filière" HorizontalAlignment="Left" Margin="-2.4,3.3,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Segoe UI Black" FontStyle="Oblique" />
+            <Label Name="labNomFi" Content="Genie Informatique " HorizontalAlignment="Left" Height="88.8" Margin="14.4,31.5,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="165.6" FontSize="14"/>
+            <Label  Content="Responsable :" HorizontalAlignment="Left" Height="88.8" Margin="2.4,68.7,0,0" VerticalAlignment="Top" Width="165.6" Grid.RowSpan="2" FontFamily="Segoe UI Black" FontSize="14"/>
+            <Label Name="labResp" Content="Said ECh-Chadi" HorizontalAlignment="Left" Height="34.8" Margin="36,20.398,0,0" VerticalAlignment="Top" Width="114" FontSize="14" Grid.Row="1"/>
+        </Grid>
+        <DataGrid Name="DataEtudient" SelectionUnit="FullRow" HorizontalAlignment="Left" Height="296.8" Margin="246.3,41.1,0,0" VerticalAlignment="Top" Width="515.2" Background="#FFE0E0E0" SelectionChanged="DataEtudient_SelectionChanged" >
+           
+        
+        </DataGrid>
+        <Label Name="labNomF" Content="Gènie Informatique" HorizontalAlignment="Left" Height="36" Margin="437.1,2.7,0,0" VerticalAlignment="Top" Width="176.4" Foreground="#FF253FCE" FontSize="18"/>
+        <Button Content="Modifier" HorizontalAlignment="Left" Height="32.8" Margin="441.6,346.329,0,0" VerticalAlignment="Top" Width="136" Foreground="White" FontFamily="Snap ITC" FontSize="14"
+             Click="Button_Click_1" Grid.RowSpan="2"  >
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Black" Offset="1"/>
+                </RadialGradientBrush>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</UserControl>
